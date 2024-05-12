@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Bodega Don Miguel
+	</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="videojuegos usados, reparacion de consolas, reparacion de controles, guadalupe victoria, venta de videojuegos, venta de consolas, venta de controles, venta de accesorios de todo tipo para consolas.">
+	<meta name="description" content="All Games es un negocio dedicado a la venta de consolas de videojuegos, venta de videojuegos, controles, accesorios y mucho más, también ofrecemos servicios de reparacion de tus consolas o controles">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<meta name="author" content="Jesús Fraire">
+	<meta name="copyright" content="Jesús Fraire">
+	<meta name="robots" content="index">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/390f0f7875.js" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@900&family=Kablammo&display=swap" rel="stylesheet">
+</head>
+<header class="encabezado">
+	<div class="encabezado-superior">
+		<div class="encabezado-superior-inicio">
+			<a href="index.html"><i class="fa-solid fa-house encabezado-superior-inicio-i"></i></a>
+		</div>
+		<div class="encabezado-superior-titulo">
+			<h1>Bodega Don Miguel</h1>
+		</div>
+		<div class="encabezado-superior-carrito">
+			<a class="boton-carrito" href="carrito.html">
+				<i class="fa-solid fa-cart-shopping encabezado-superior-carrito-i">
+					<div class="numero">
+						<span class="numero-carrito" id="numerito"></span>
+					</div>
+				</i>
+			</a>
+
+		</div>
+		
+	</div>
+
+	</div>
+
+	<div class="encabezado-2">
+		<div class="encabezado-2-direccion">
+			<a href="index.html" class="encabezado-2-direccion-a boton-volver"><i class="fa-solid fa-arrow-left"></i>SEGUIR COMPRANDO</a>
+		</div>
+	</div>
+
+	
+</header>
+<body>
+	<main>
+		<h4 id="titulo-principal">Carrito</h4>
+		<div class="contenedor-carrito">
+			<p class="carrito-vacio" id="carrito-vacio">Tu Carrito Esta Vacío<i class="fa-regular fa-face-frown"></i></p>
+			<div class="carrito-productos" id="carrito-productos">
+				<div class="carrito-producto disabled">
+					<img class="carrito-producto-imagen" src="./imagenes/abarrotes/aceites-comestibles/aceite123-1l.jpeg">
+					<div class="carrito-producto-titulo">
+						<small>Titulo</small>
+						<h5>Nutrioli</h5>
+					</div>
+					<div class="carrito-producto-cantidad">
+						<small>Cantidad</small>
+						<p>1</p>
+					</div>
+					<div class="carrito-producto-precio">
+						<small>precio</small>
+						<p>$1000</p>
+					</div>
+					<div class="carrito-producto-subtotal">
+						<small>Subtotal</small>
+						<p>$1000</p>
+					</div>
+					<button class="carrito-producto-eliminar"><i class="fa-regular fa-trash-can"></i></button>
+				</div>
+
+				<div class="carrito-producto disabled" id="carrito-productos">
+					<img class="carrito-producto-imagen" src="./imagenes/abarrotes/aceites-comestibles/aceite123-1l.jpeg">
+					<div class="carrito-producto-titulo">
+						<small>Titulo</small>
+						<h5>Nutrioli</h5>
+					</div>
+					<div class="carrito-producto-cantidad">
+						<small>Cantidad</small>
+						<p>1</p>
+					</div>
+					<div class="carrito-producto-precio">
+						<small>precio</small>
+						<p>$1000</p>
+					</div>
+					<div class="carrito-producto-subtotal">
+						<small>Subtotal</small>
+						<p>$1000</p>
+					</div>
+					<button class="carrito-producto-eliminar"><i class="fa-regular fa-trash-can"></i></button>
+				</div>
+
+				
+			</div>
+			<div class="carrito-acciones disabled" id="carrito-acciones">
+				<div class="carrito-acciones-izquierda">
+					<button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar Carrito</button>
+				</div>
+
+				<div class="carrito-acciones-derecha">
+					<div class="carrito-acciones-total">
+						<p>Total:</p>
+						<p id="total">$3000</p>
+						
+					</div>
+					<button id="carrito-acciones-comprar" class="carrito-acciones-comprar">comprar ahora</button>
+				</div>
+				
+			</div>
+			<p id="carrito-comprado" class="carrito-comprado disabled">Muchas Gracias Por Tu Compra<i class="fa-regular fa-face-smile-wink"></i></p>
+		</div>
+
+	</main>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="carrito.js"></script>
+	
+</body>
+<footer>
+	<p>© All In All Designs Todos Los Derechos Reservados</p>
+</footer>
+</html>
